@@ -59,7 +59,7 @@ const ChooseUser = ({ visitor }) => {
       if (visitor === "guest") {
         // Guest mode: auto-login with admin demo credentials
         const email = "imtiajuddinsohag99@gmail.com";
-        const password = "654321";
+        const password = "sohag99";
         const fields = { email, password };
         setLoader(true);
         dispatch(loginUser(fields, user));
